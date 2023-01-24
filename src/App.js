@@ -84,11 +84,11 @@ const App = () => {
     
     <p>Your favorite food, delivered while coding</p>
     
-    <Link to="/pizza.js">
+    <Link to="/pizza">
     <button id="order-pizza">Pizza?</button>
     </Link>
     </Route>
-    <Route path="/pizza.js">
+    <Route path="/pizza">
       <Form
         values={form}
         submit={formSubmit}

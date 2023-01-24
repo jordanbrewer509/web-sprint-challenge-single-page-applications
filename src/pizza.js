@@ -11,7 +11,7 @@ const Form = (props) => {
     }
     
     return (
-        <Route exact path="/pizza.js">
+        <Route exact path="/pizza">
             <h1>BloomTech Eats</h1>
             <Link to="/">
                 <button>Home</button>
@@ -76,7 +76,7 @@ const Form = (props) => {
                 name="special-text"
                 id="special-text"
                 placeholder="ex. Knock twice"
-                onChange={onChange}
+                onChange={onChange} 
                 value={values['special-text']}
             />
 
